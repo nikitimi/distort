@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.header {
+  background-color: $primary-color;
+
+  .header-heading {
+    text-transform: capitalize;
+  }
+}
