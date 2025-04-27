@@ -6,7 +6,7 @@ import { Component, computed, signal } from '@angular/core';
   styleUrl: './header.scss',
 })
 export class Header {
-  readonly foo = signal('distort')
+  readonly title = signal('distort')
 
   checkForRoutes(): void {
     console.log('Checking for routes...');
